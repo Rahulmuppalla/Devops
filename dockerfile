@@ -1,4 +1,7 @@
 FROM ubuntu
+
+MAINTAINER Boss
+
 RUN apt-get update
-RUN apt-get install –y nginx
-CMD [“echo”,”Image created”]
+
+CMD ["echo", "Hello World"]
