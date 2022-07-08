@@ -1,2 +1,4 @@
-FROM ubuntu:18.04
-COPY . /app
+FROM ubuntu
+RUN apt-get update
+RUN apt-get install –y nginx
+CMD [“echo”,”Image created”]
